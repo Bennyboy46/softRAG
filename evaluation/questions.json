@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Where is authentication implemented?",
+    "category": "semantic",
+    "expected_sources": ["auth.py"],
+    "expected_terms": ["AuthService", "login", "validate_credentials"]
+  },
+  {
+    "question": "Where is AuthService defined?",
+    "category": "exact_identifier",
+    "expected_sources": ["auth.py"],
+    "expected_terms": ["AuthService"]
+  },
+  {
+    "question": "Where is create_access_token() defined?",
+    "category": "function",
+    "expected_sources": ["auth.py"],
+    "expected_terms": ["create_access_token"]
+  },
+  {
+    "question": "Which class manages database connections?",
+    "category": "class",
+    "expected_sources": ["database.py"],
+    "expected_terms": ["DatabaseManager"]
+  },
+  {
+    "question": "Which route handles user login?",
+    "category": "api_route",
+    "expected_sources": ["auth.py"],
+    "expected_terms": ["/api/v1/auth/login", "login"]
+  },
+  {
+    "question": "Where is the database connection created?",
+    "category": "dependency",
+    "expected_sources": ["database.py"],
+    "expected_terms": ["create_connection"]
+  },
+  {
+    "question": "What happens when the login function runs?",
+    "category": "execution_flow",
+    "expected_sources": ["auth.py"],
+    "expected_terms": ["validate_credentials", "HTTPException", "token"]
+  },
+  {
+    "question": "Which file imports FastAPI?",
+    "category": "import",
+    "expected_sources": ["auth.py"],
+    "expected_terms": ["FastAPI"]
+  },
+  {
+    "question": "What framework does this repository use?",
+    "category": "repository_architecture",
+    "expected_sources": ["README.md", "auth.py"],
+    "expected_terms": ["FastAPI", "SQLite", "TypeScript"]
+  },
+  {
+    "question": "What payment gateway does this repository use?",
+    "category": "unanswerable",
+    "expected_sources": [],
+    "expected_terms": []
+  },
+  {
+    "question": "Where is the Redis cache configured?",
+    "category": "unanswerable",
+    "expected_sources": [],
+    "expected_terms": []
+  },
+  {
+    "question": "Which AWS Lambda function handles payments?",
+    "category": "unanswerable",
+    "expected_sources": [],
+    "expected_terms": []
+  }
+]
