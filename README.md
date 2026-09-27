@@ -67,21 +67,7 @@ Then open the frontend in the browser and ingest a repository to start asking co
 
 ---
 
-## Screenshots
 
-### Repository Q&A dashboard
-
-<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80" alt="Repository Q&A dashboard" width="100%" />
-
-The interface is intentionally minimal and structured: repository input, question entry, answer output, and source evidence remain visible without visual clutter.
-
-### Source-aware answer view
-
-<img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80" alt="Source-aware answer view" width="100%" />
-
-Answers are grounded in repository evidence and can be traced back to relevant code snippets and files.
-
----
 
 ## Architecture
 
