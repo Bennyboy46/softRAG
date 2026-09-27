@@ -301,4 +301,4 @@ Relevant files include:
 
 ## License
 
-This project is currently provided as a local engineering prototype for repository-aware code Q&A. Update the license file if you plan to distribute it publicly.
+This project is currently provided as a local engineering prototype for repository-aware code Q&A. 
